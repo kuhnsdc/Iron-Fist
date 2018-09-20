@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* Iron Fist Grid CSS  */
+
+/*!
+ * Daniel Kuhns
+ */
+
+body {
+	margin: 1% 0 1% 1.6%;
+}
+
+.container {
+    padding: 0 1rem;
+    margin: 0 auto;
+	
+}
+
+@media screen and (min-width: 992px) {
+.container {
+    max-width: 1140px;
+}
+.grid-wrapper {
+    display: grid;
+    grid-gap: 0 2rem;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0 auto;
+    width: 100%;
+}
+.col-1 {
+    grid-column: span 1;
+}
+.col-2 {
+    grid-column: span 2;
+}
+.col-3 {
+    grid-column: span 3;
+}
+.col-4 {
+    grid-column: span 4;
+}
+.col-5 {
+    grid-column: span 5;
+}
+.col-6 {
+    grid-column: span 6;
+}
+.col-7 {
+    grid-column: span 7;
+}
+.col-8 {
+    grid-column: span 8;
+}
+.col-9 {
+    grid-column: span 9;
+}
+.col-10 {
+    grid-column: span 10;
+}
+.col-11 {
+    grid-column: span 11;
+}
+.col-12 {
+    grid-column: span 12;
+}
+	.col-13 {
+    grid-column: span 13;
+}
+	.col-14 {
+    grid-column: span 14;
+}
+}
